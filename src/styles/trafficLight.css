@@ -1,0 +1,39 @@
+#trafficTop {
+    height: 150px;
+    width: 30px;
+    margin: auto;
+    background-color: black;
+    margin-top: 20px;
+}
+
+#container {
+    padding: 20px;
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.light {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.selected {
+    box-shadow: rgb(243, 243, 152) 0px 0px 50px 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
