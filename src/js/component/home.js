@@ -22,17 +22,17 @@ export default class Home extends React.Component {
 				<div className="top"></div>
 				<div className="container">
 					<div
-						className={"red light " + redNewClass}
+						className={"redColor light " + redNewClass}
 						onClick={() =>
 							this.setState({ clickedLight: "red" })
 						}></div>
 					<div
-						className={"yellow light " + yellowNewClass}
+						className={"yellowColor light " + yellowNewClass}
 						onClick={() =>
 							this.setState({ clickedLight: "yellow" })
 						}></div>
 					<div
-						className={"green light " + greenNewClass}
+						className={"greenColor light " + greenNewClass}
 						onClick={() =>
 							this.setState({ clickedLight: "green" })
 						}></div>
