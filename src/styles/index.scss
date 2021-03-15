@@ -27,9 +27,10 @@ body{
     border-radius: 50%;
     padding: 4px;
     cursor: pointer;
-    &.red { background-color: #990000; }
-    &.yellow { background-color: #CC6600; }
-    &.green { background-color: #009933; }
+    &.redColor { background-color: red; }
+    &.yellowColor { background-color: yellow; }
+    &.greenColor { background-color: green; }
+    
     &.selected { box-shadow: #f8ffcc 0px 0px 50px 20px; }
 
 }
