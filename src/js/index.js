@@ -4,22 +4,12 @@ import ReactDOM from "react-dom";
 
 //include bootstrap npm library into the bundle
 import "bootstrap";
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 //include your index.scss file into the bundle
-//import "../styles/index.css";
+import "../styles/index.scss";
 
 //import your own components
-import "../styles/index.css";
-import App from "../js/App.js";
-import TrafficLight from "../js/component/TrafficLight";
+import Home from "./component/home.js";
 
 //render your react application
-ReactDOM.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
-	document.getElementById("root")
-);
-ReactDOM.render(<TrafficLight />, document.querySelector("#app"));
+ReactDOM.render(<Home />, document.querySelector("#app"));
